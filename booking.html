@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Booking | Snow Peak Mountain Resort</title>
+</head>
+<body>
+    <h1>Room Booking</h1>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Lodging.html">Rooms & Facilities</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="Booking.html">Booking</a></li>
+    </ul>
+    <h2>Book Your Stay</h2>
+    <p>Please fill out the form below to reserve your room.</p>
+    <form>
+        <label for="Full Name">Full Name</label><br>
+        <input type="text" name="txtfullname" id="fullname"><br><br>
+        <label for="Email">Email</label><br>
+        <input type="email" name="txtemail" id="email"><br><br>
+        <label for="Phone Number">Phone Number</label><br>
+        <input type="tel" required><br><br>
+        <label for="Check-in Date">Check-in Date</label><br>
+        <input type="date" required><br><br>
+        <label for="Check-out Daate">Check-out Date</label><br>
+        <input type="date" required><br><br>
+         Number of Guests:<br>
+        <input type="number" min="1" max="10" required><br><br>
+
+        Select Room Type:<br>
+        <select required>
+            <option>Deluxe Room</option>
+            <option>Family Suite</option>
+            <option>Couples Room</option>
+        </select><br><br>
+        Additional Requests:<br>
+        <textarea rows="5" cols="40"></textarea><br><br>
+        <input type="submit" value="Book Now">
+    </form>    
+</body>
+</html>
